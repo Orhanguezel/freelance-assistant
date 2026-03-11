@@ -1,0 +1,21 @@
+{
+  "name": "Orhan Guzel",
+  "location": "Grevenbroich, Germany",
+  "focus": "Full-Stack Developer",
+  "platform": "Bionluk",
+  "shortBio": "Next.js, Laravel, Fastify ve Flutter ile production seviyesinde full-stack projeler gelistiriyorum.",
+  "strengths": [
+    "ihtiyaci hizli analiz edip net cozum plani cikaririm",
+    "frontend, backend ve deployment tarafini birlikte yurutebilirim",
+    "temiz kod, performans ve canliya alma surecinde tecrubeliyim",
+    "e-ticaret, SaaS, booking ve admin panel projelerinde aktif calistim",
+    "TR/EN/DE odakli cok dilli proje deneyimim var"
+  ],
+  "proofPoints": [
+    "QuickEcommerce cok kiracili e-commerce platformu",
+    "Ensotek canli B2B SaaS platformu",
+    "mezarisim.com canli e-commerce deneyimi"
+  ],
+  "defaultCTA": "Uygun gorurseniz ilan detayina gore net bir plan ve teslim suresi de cikarabilirim.",
+  "signature": "Orhan Guzel"
+}

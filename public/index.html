@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Freelance Assistant</title>
+    <link rel="stylesheet" href="/app.css" />
+  </head>
+  <body>
+    <main class="page">
+      <section class="hero">
+        <p class="eyebrow">Bionluk Routine</p>
+        <h1>Teklif yazisini hizli cikar</h1>
+        <p class="lede">
+          Ilani yapistir. Sistem sana 600 karakter altinda kisa teklif, daha guclu uzun teklif ve hizli eslesme notlari versin.
+        </p>
+      </section>
+
+      <section class="panel input-panel">
+        <div class="field-row">
+          <label class="field">
+            <span>Platform</span>
+            <select id="platform">
+              <option value="bionluk">Bionluk</option>
+              <option value="upwork">Upwork</option>
+            </select>
+          </label>
+          <label class="field">
+            <span>Ilan basligi</span>
+            <input id="title" type="text" placeholder="Orn. Next.js gelistirme destegi" />
+          </label>
+        </div>
+
+        <label class="field">
+          <span>Ilan metni</span>
+          <textarea id="briefText" rows="12" placeholder="Ilan metnini buraya yapistir..."></textarea>
+        </label>
+
+        <div class="actions">
+          <button id="generateButton" class="primary">Teklifleri Uret</button>
+          <button id="fillExampleButton" class="secondary">Ornek Doldur</button>
+        </div>
+      </section>
+
+      <section class="results-grid">
+        <article class="panel result-card accent">
+          <div class="card-head">
+            <h2>Kisa teklif</h2>
+            <div class="card-actions">
+              <span id="shortLength" class="badge">0/600</span>
+              <button id="copyShortButton" class="mini-button">Kopyala</button>
+            </div>
+          </div>
+          <pre id="shortProposal" class="output"></pre>
+        </article>
+
+        <article class="panel result-card">
+          <div class="card-head">
+            <h2>Uzun teklif</h2>
+            <button id="copyLongButton" class="mini-button">Kopyala</button>
+          </div>
+          <pre id="longProposal" class="output"></pre>
+        </article>
+      </section>
+
+      <section class="results-grid">
+        <article class="panel result-card">
+          <div class="card-head">
+            <h2>Teslim onerisi</h2>
+          </div>
+          <div id="deliverySuggestion" class="delivery-box"></div>
+        </article>
+
+        <article class="panel result-card">
+          <div class="card-head">
+            <h2>Odak alanlari</h2>
+          </div>
+          <ul id="focusAreas" class="pill-list"></ul>
+        </article>
+      </section>
+
+      <section class="results-grid single">
+        <article class="panel result-card">
+          <div class="card-head">
+            <h2>Ilgili proje referanslari</h2>
+          </div>
+          <div id="relevantProjects" class="project-list"></div>
+        </article>
+      </section>
+
+      <section class="results-grid single">
+        <article class="panel result-card">
+          <div class="card-head">
+            <h2>Gunluk checklist</h2>
+          </div>
+          <ol id="checklist" class="check-list"></ol>
+        </article>
+      </section>
+    </main>
+
+    <script src="/app.js"></script>
+  </body>
+  </html>

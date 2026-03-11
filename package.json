@@ -1,0 +1,11 @@
+{
+  "name": "freelance-assistant",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.mjs",
+    "proposal:generate": "node src/generate-proposal.mjs",
+    "proposal:web": "node src/server.mjs",
+    "knowledge:sync": "node src/sync-knowledge.mjs"
+  }
+}

@@ -1,0 +1,259 @@
+{
+  "generatedAt": "2026-03-11",
+  "source": "/home/orhan/Documents/Projeler",
+  "projects": [
+    {
+      "title": "Ensotek",
+      "category": "B2B PLATFORM",
+      "summary": "B2B multi-tenant platform for cooling tower solutions with per-tenant domain, language and theme support, catalog and customer document management.",
+      "techs": [
+        "Next.js",
+        "TypeScript",
+        "Fastify",
+        "Drizzle ORM",
+        "MySQL",
+        "Bun",
+        "Zod",
+        "Cloudinary"
+      ],
+      "features": [
+        "Multi-tenant architecture",
+        "Per-tenant domain & theme",
+        "Catalog management",
+        "Customer document handling"
+      ],
+      "websiteUrl": "https://www.ensotek.de",
+      "featured": true
+    },
+    {
+      "title": "Konig Massage",
+      "category": "BOOKING PLATFORM",
+      "summary": "Multi-language massage and wellness booking platform with customer site, admin panel and Fastify backend.",
+      "techs": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Fastify",
+        "Drizzle ORM",
+        "MySQL",
+        "Bun"
+      ],
+      "features": [
+        "Online booking system",
+        "Admin management",
+        "Multi-language support",
+        "SEO optimization"
+      ],
+      "websiteUrl": null,
+      "featured": true
+    },
+    {
+      "title": "Paspas ERP",
+      "category": "ERP",
+      "summary": "Production planning and operations ERP workspace with Bun backend and Next.js admin panel.",
+      "techs": [
+        "Bun",
+        "TypeScript",
+        "Fastify",
+        "Drizzle ORM",
+        "MySQL",
+        "Next.js",
+        "React",
+        "React Query"
+      ],
+      "features": [
+        "Production planning",
+        "Operations management",
+        "Admin dashboard",
+        "ERP workflows"
+      ],
+      "websiteUrl": null,
+      "featured": true
+    },
+    {
+      "title": "QuickEcommerce",
+      "category": "E-COMMERCE",
+      "summary": "Enterprise multi-tenant e-commerce platform with admin panel, customer web, mobile apps and Laravel backend.",
+      "techs": [
+        "Laravel",
+        "PHP",
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Flutter",
+        "MySQL",
+        "Tailwind CSS"
+      ],
+      "features": [
+        "Multi-tenant architecture",
+        "Admin panel",
+        "Customer web",
+        "Mobile application"
+      ],
+      "websiteUrl": "https://sportoonline.com",
+      "featured": true
+    },
+    {
+      "title": "Tarifin Tarifi",
+      "category": "CONTENT PLATFORM",
+      "summary": "AI-powered multi-language recipe discovery and sharing platform with Groq LLM integration, reCAPTCHA spam protection and Express/MongoDB backend.",
+      "techs": [
+        "Next.js",
+        "TypeScript",
+        "Redux Toolkit",
+        "Styled Components",
+        "next-intl",
+        "Zod",
+        "Express",
+        "MongoDB"
+      ],
+      "features": [
+        "AI recipe generation (Groq LLM)",
+        "Multi-language (TR/EN/DE)",
+        "reCAPTCHA spam protection",
+        "Cloudinary media"
+      ],
+      "websiteUrl": null,
+      "featured": true
+    },
+    {
+      "title": "GZL Temizlik",
+      "category": "SERVICE PLATFORM",
+      "summary": "Cleaning company management platform with customer website, admin panel, booking system and Fastify backend.",
+      "techs": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Redux Toolkit",
+        "Sass",
+        "Fastify",
+        "Drizzle ORM",
+        "MySQL"
+      ],
+      "features": [
+        "Service booking",
+        "Admin management",
+        "Customer portal",
+        "Email notifications"
+      ],
+      "websiteUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Kaman Social",
+      "category": "SOCIAL PLATFORM",
+      "summary": "Social media management system with monorepo architecture, Fastify backend, Next.js dashboard and scheduled job processing.",
+      "techs": [
+        "TypeScript",
+        "Fastify",
+        "Drizzle ORM",
+        "MySQL",
+        "Bun",
+        "Zod",
+        "JWT",
+        "node-cron"
+      ],
+      "features": [
+        "Social content management",
+        "Scheduled jobs (node-cron)",
+        "Admin dashboard",
+        "Monorepo workspace"
+      ],
+      "websiteUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Kamanilan",
+      "category": "REAL ESTATE",
+      "summary": "Real estate listing and property management platform with customer web, admin panel, multi-language support and integrated payment.",
+      "techs": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Radix UI",
+        "Tailwind CSS",
+        "Framer Motion",
+        "next-intl",
+        "React Query"
+      ],
+      "features": [
+        "Property listings",
+        "Admin management",
+        "Multi-language support",
+        "Iyzipay payment integration"
+      ],
+      "websiteUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Mezar Tasi",
+      "category": "E-COMMERCE",
+      "summary": "Memorial stone e-commerce platform for the Istanbul market featuring marble and granite product catalog, ordering system and admin management.",
+      "techs": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Redux Toolkit",
+        "React Query",
+        "Radix UI",
+        "Shadcn UI",
+        "Tailwind CSS"
+      ],
+      "features": [
+        "Product catalog",
+        "Order management",
+        "Admin dashboard",
+        "Cloudinary media"
+      ],
+      "websiteUrl": "https://mezarisim.com",
+      "featured": false
+    },
+    {
+      "title": "PaketJet",
+      "category": "LOGISTICS PLATFORM",
+      "summary": "Logistics and cargo delivery management platform with shipment tracking, customer portal and operations dashboard.",
+      "techs": [
+        "TypeScript",
+        "Next.js",
+        "React",
+        "Fastify",
+        "MySQL",
+        "Drizzle ORM",
+        "Bun",
+        "Zod"
+      ],
+      "features": [
+        "Shipment tracking",
+        "Customer portal",
+        "Operations dashboard",
+        "Logistics workflows"
+      ],
+      "websiteUrl": null,
+      "featured": false
+    },
+    {
+      "title": "Products Park",
+      "category": "WEB APPLICATION",
+      "summary": "Product management platform with drag-and-drop admin panel, inventory management, Stripe payment integration and Fastify backend.",
+      "techs": [
+        "React",
+        "TypeScript",
+        "Vite",
+        "Redux Toolkit",
+        "React Query",
+        "Radix UI",
+        "Shadcn UI",
+        "Tailwind CSS"
+      ],
+      "features": [
+        "Drag-and-drop product management",
+        "Inventory system",
+        "Stripe payments",
+        "Admin dashboard"
+      ],
+      "websiteUrl": null,
+      "featured": false
+    }
+  ]
+}

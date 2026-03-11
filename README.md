@@ -31,6 +31,7 @@ npm run proposal:generate -- --text "Ilan metni..."
 cat ilan.txt | npm run proposal:generate -- --brief -
 npm run proposal:web
 npm run knowledge:sync
+npm run proposal:telegram -- --brief examples/bionluk-brief.md
 ```
 
 ## Dosya Yapisi
@@ -39,6 +40,7 @@ npm run knowledge:sync
 - `src/proposal-engine.mjs`: ortak teklif motoru
 - `src/server.mjs`: lokal web arayuzu sunucusu
 - `src/sync-knowledge.mjs`: proje metadata'larindan tasinabilir bilgi paketi uretir
+- `src/telegram-proposal.mjs`: uretilen teklifi Telegram'a gonderir
 - `data/profile.json`: senin guclu yonlerin ve varsayilan profil bilgilerin
 - `data/knowledge.json`: projelerinden uretilen tasinabilir bilgi paketi
 - `examples/bionluk-brief.md`: ornek ilan metni

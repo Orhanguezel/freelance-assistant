@@ -32,6 +32,7 @@ cat ilan.txt | npm run proposal:generate -- --brief -
 npm run proposal:web
 npm run knowledge:sync
 npm run proposal:telegram -- --brief examples/bionluk-brief.md
+npm run proposal:command -- --text "teklif: Next.js panel icin destek araniyor"
 ```
 
 ## Dosya Yapisi
@@ -41,6 +42,7 @@ npm run proposal:telegram -- --brief examples/bionluk-brief.md
 - `src/server.mjs`: lokal web arayuzu sunucusu
 - `src/sync-knowledge.mjs`: proje metadata'larindan tasinabilir bilgi paketi uretir
 - `src/telegram-proposal.mjs`: uretilen teklifi Telegram'a gonderir
+- `src/telegram-command.mjs`: `teklif:` komutlarini parse eder
 - `data/profile.json`: senin guclu yonlerin ve varsayilan profil bilgilerin
 - `data/knowledge.json`: projelerinden uretilen tasinabilir bilgi paketi
 - `examples/bionluk-brief.md`: ornek ilan metni

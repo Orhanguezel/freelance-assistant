@@ -7,6 +7,7 @@
     "proposal:generate": "node src/generate-proposal.mjs",
     "proposal:web": "node src/server.mjs",
     "knowledge:sync": "node src/sync-knowledge.mjs",
-    "proposal:telegram": "node src/telegram-proposal.mjs"
+    "proposal:telegram": "node src/telegram-proposal.mjs",
+    "proposal:command": "node src/telegram-command.mjs"
   }
 }

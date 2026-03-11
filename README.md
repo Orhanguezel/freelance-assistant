@@ -38,6 +38,7 @@ npm run knowledge:sync
 - `src/generate-proposal.mjs`: teklif ureten CLI
 - `src/proposal-engine.mjs`: ortak teklif motoru
 - `src/server.mjs`: lokal web arayuzu sunucusu
+- `src/sync-knowledge.mjs`: proje metadata'larindan tasinabilir bilgi paketi uretir
 - `data/profile.json`: senin guclu yonlerin ve varsayilan profil bilgilerin
 - `data/knowledge.json`: projelerinden uretilen tasinabilir bilgi paketi
 - `examples/bionluk-brief.md`: ornek ilan metni
